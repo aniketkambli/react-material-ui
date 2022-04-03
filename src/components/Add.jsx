@@ -61,8 +61,8 @@ const Add = () => {
   return (
     <>
       <Tooltip title="Add" aria-label="add" onClick={() => setOpen(true)}>
-        <Fab color="primary" className={classes.fab}>
-          <AddIcon />
+        <Fab style={{ backgroundColor: "black" }} className={classes.fab}>
+          <AddIcon style={{ color: "white" }} />
         </Fab>
       </Tooltip>
       <Modal open={open}>
