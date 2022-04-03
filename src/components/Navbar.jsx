@@ -77,11 +77,8 @@ const Navbar = () => {
   return (
     <AppBar>
       <Toolbar className={classes.toolbar}>
-        <Typography variant="h6" className={classes.logoLarge}>
-          Aniket Dev
-        </Typography>
         <Typography variant="h6" className={classes.logoSmall}>
-          AK
+          Aniket Kambli
         </Typography>
         <div className={classes.search}>
           <SearchIcon className={classes.SearchIcon} />
